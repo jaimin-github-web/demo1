@@ -3,7 +3,7 @@ module.exports = {
     posts: {
       path: "src/_posts",
       output: true,
-      url: "/posts/{category|slugify}/[slug].html",
+      url: "/posts/{category|slugify}/[slug]",
       icon: "event_available"
     },
     pages: {
