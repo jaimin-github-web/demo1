@@ -8,7 +8,7 @@ module.exports = {
     },
     pages: {
       name: 'Pages',
-      path: 'src/_pages',
+      path: 'src/pages',
       parser: 'frontmatter',
       output: true,
       url: '/[slug]'
