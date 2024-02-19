@@ -20,7 +20,6 @@
 {
   paths: {
     data: "data",
-    static: "public",
     uploads: "public/uploads"
   },
   collections_config: {
@@ -44,12 +43,6 @@
           icon: "post_add"
         }
       ],
-      schemas: {
-        default: {
-          name: "New Post",
-          path: "schemas/post.md"
-        }
-      },
       _inputs: {
         title: {
           empty_type: "string"
@@ -85,16 +78,6 @@
           icon: "note_add"
         }
       ],
-      # schemas: {
-      #   default: {
-      #     name: "New Page",
-      #     path: "schemas/page.md",
-      #     new_preview_url: "/"
-      #   },
-      #   paginated_collection: {
-      #     path: "schemas/paginated-collection.md"
-      #   }
-      # },
       _inputs: {
         content_blocks: {
           empty_type: "array"
