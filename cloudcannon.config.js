@@ -9,6 +9,7 @@ module.exports = {
     pages: {
       name: 'Pages',
       path: 'src/pages',
+      glob: ['**/*.md', './src/pages/*.astro'],
       parser: 'frontmatter',
       output: true,
       url: '/[slug]'
