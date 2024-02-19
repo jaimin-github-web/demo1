@@ -47,7 +47,6 @@ module.exports = {
       redo: true,
       removeformat: true,
       copyformatting: true,
-      styles: "/css/editor.css",
       left: "align-left",
       center: "align-center",
       right: "align-right",
