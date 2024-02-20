@@ -59,9 +59,7 @@ module.exports = {
       image_size_attributes: true,
       snippet: true
     }
-  },
-  {
-  _inputs: {
+    _inputs: {
     background: {
       type: "color",
       comment: "Defines the background for the entire page"
@@ -75,5 +73,5 @@ module.exports = {
       hidden: true
     }
   }
-}
+  }
 };
