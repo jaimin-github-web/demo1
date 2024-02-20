@@ -58,7 +58,7 @@ module.exports = {
       justify: "align-justify",
       image_size_attributes: true,
       snippet: true
-    }
+    },
     _inputs: {
     background: {
       type: "color",
