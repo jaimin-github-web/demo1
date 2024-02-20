@@ -59,5 +59,21 @@ module.exports = {
       image_size_attributes: true,
       snippet: true
     }
+  },
+  {
+  _inputs: {
+    background: {
+      type: "color",
+      comment: "Defines the background for the entire page"
+    },
+    hero_content: {
+      type: "markdown",
+      label: "Hero text"
+    },
+    sidebar: {
+      type: "checkbox",
+      hidden: true
+    }
   }
+}
 };
