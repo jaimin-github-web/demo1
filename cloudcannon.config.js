@@ -4,7 +4,9 @@ module.exports = {
       path: "src/_posts",
       output: true,
       url: "/posts/{category|slugify}/[slug]",
-      icon: "event_available"
+      _enabled_editors: [
+        "content"
+      ]
     },
     pages: {
       name: 'Pages',
